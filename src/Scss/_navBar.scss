@@ -1,0 +1,62 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #040b16;
+
+}
+
+ul{
+  display: flex;
+  text-decoration: none;
+  margin-right: 80px;
+ 
+
+  a{
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    
+
+    &:hover{
+      color: red;
+      transition: 0.7s ease;
+    }
+   
+  }
+
+  li{
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+  }
+}
+
+.logo{
+  
+
+  h1{ 
+    font-size: 32px;
+    margin-left: 80px;
+  }
+
+}
+
+
+.imagem{
+  
+  margin-left: 350px;
+}
+
+.campinho{
+  color: red;
+
+  &:hover{
+    color: white;
+    transition: 0.7s ease;
+  }
+}
+

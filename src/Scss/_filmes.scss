@@ -1,0 +1,63 @@
+.dados{
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+
+    h4{
+        padding : 24px ;
+    }
+}
+
+.title{
+    text-align: center;
+    margin: 8px 4px ;
+    background-color: #1c1c1c;
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin-top: 0px;
+}
+
+
+.filmes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+.dados-api{
+    width: 30%;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    
+
+    img{
+        max-width: 100%;
+
+       
+    }
+
+    h1{
+        margin-top: 10px;
+        font-size: 20px;
+
+    }
+
+    p{
+        margin-top: 10px;
+        &:hover{
+            color: #636363;
+            transition: 0.5s ease;
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+.lançamento{
+    color: rgb(255, 83, 83);
+    font-weight: 400;
+}
